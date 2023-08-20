@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       var x = 2;
+       var y = 7;
+       console.log("before the change: x =", x, ", y =", y);
+       function change(x, y) {
+        var temp = x;
+        x = y;
+        y = temp;
+        }
+        change(x, y);
+        console.log("after the change: x =", x, ", y =", y);
+    </script>
+</body>
+</html>
